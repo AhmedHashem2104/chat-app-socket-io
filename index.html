@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <title>Chat App Socket.IO</title>
+</head>
+<body style="margin:0px;padding:0px;margin-bottom: 15px;">
+    <div class="container">
+<div class="row" style="margin-top : 20px;">
+    <h1 style="text-align:center;margin-bottom: 15px;">Chat App Socket.IO</h1>
+    <div id="chatElement" style="height : 600px;border:1px solid black;border-radius: 10px;padding-top: 15px;margin: 10px;overflow-y:auto;"></div>
+    <textarea class="form-control" id="input" style="margin:20px;height: 100px;resize: none;" placeholder="Write message here..."></textarea>
+    <div style="display:flex;justify-content:center;">
+    <button onclick="handleClick()" style="border-radius: 20px;" class="btn btn-primary">Send Message</button>
+</div>
+</div>
+</div>
+<script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.1.3/socket.io.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
