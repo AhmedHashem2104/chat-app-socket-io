@@ -10,9 +10,9 @@ var senderId;
 
             const p = document.createElement('p');
             if(senderId == sender)
-            p.style.cssText = 'background-color:grey;padding:15px;border-radius:25px;color:white;font-weight:bold;display:flex;align-items:center;direction:rtl;'
+            p.style.cssText = 'background-color:grey;padding:15px;border-radius:25px;color:white;font-weight:bold;display:flex;align-items:center;direction:rtl'
             else
-            p.style.cssText = 'background-color:blue;padding:15px;border-radius:25px;color:white;font-weight:bold;display:flex;align-items:center;'
+            p.style.cssText = 'background-color:blue;padding:15px;border-radius:25px;color:white;font-weight:bold;display:flex;align-items:center'
             p.innerHTML = message
             document.getElementById("chatElement").appendChild(p);
            
